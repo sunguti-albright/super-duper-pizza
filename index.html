@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +12,38 @@
 <body>
     <div class="container">
         <div class="row1">
-            <div class="col-sm-12">
-                <h1>WELCOME TO SUPER DUPER PIZZA</h1>
+                <h1>SUPER DUPER PIZZA</h1>
+                <h5>The home of amazing and tasty pizzas in Kenya</h5>
+  
+        </div>
+        <div class="row2">
+            <div class="column">
+                <label>Pick a pizza size:</label>
+                <select name="pizza" id="pizza">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
+            </div>
+            <div class="column">
+                <label>What crust dod you want for your pizza?:</label>
+                <select name="crust" id="crust">
+                    <option value="Crispy">Crispy</option>
+                    <option value="Stuffed">Stuffed</option>
+                    <option value="Glutten-free">Glutten-free</option>
+                </select>
+            </div>
+            <div class="column">
+                <label>Pick your preferred toppings:</label>
+                <select name="toppings" id="toppings">
+                    <option value="Pineapples">Pineapples</option>
+                    <option value="Olives">Olives</option>
+                    <option value="Extra Chicken">Extra Chicken</option>
+                </select>
             </div>
         </div>
+        
     </div>
-
+ <script src="script.js"></script>
 </body>
 </html>
