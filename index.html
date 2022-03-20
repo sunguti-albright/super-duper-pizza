@@ -1,49 +1,96 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Parisienne&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizza</title>
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row1">
-                <h1>SUPER DUPER PIZZA</h1>
-                <h5>The home of amazing and tasty pizzas in Kenya</h5>
-  
+          <h1>WELCOME TO SUPER DUPER PIZZA</h1><br>
+          <p>The home of amazing and tasty pizzas in Kenya</p>
         </div>
         <div class="row2">
-            <div class="column">
-                <label>Pick a pizza size:</label>
-                <select name="pizza" id="pizza">
-                    <option value="Small">Small</option>
-                    <option value="Medium">Medium</option>
-                    <option value="Large">Large</option>
+          <h3>PLACE YOUR PIZZA ORDER TODAY!!!</h3>
+          <div class="column2">
+            <img src="./img/pizza1.jpg" alt="pizza image" id="images">
+                <h4>Pizza size</h4>
+                <select name="pizza" id="size">
+                    <option label="Small" value="500">Small</option>
+                    <option label="Medium" value="800">Medium</option>
+                    <option label="Large" value="1000">Large</option>
                 </select>
+                
             </div>
-            <div class="column">
-                <label>What crust dod you want for your pizza?:</label>
-                <select name="crust" id="crust">
-                    <option value="Crispy">Crispy</option>
-                    <option value="Stuffed">Stuffed</option>
-                    <option value="Glutten-free">Glutten-free</option>
-                </select>
-            </div>
-            <div class="column">
-                <label>Pick your preferred toppings:</label>
+            <div class="column2">
+                <img src="./img/pizza2.jpg" alt="pizza image" id="images">
+                <h4>Pizza toppings</h4>
                 <select name="toppings" id="toppings">
-                    <option value="Pineapples">Pineapples</option>
-                    <option value="Olives">Olives</option>
-                    <option value="Extra Chicken">Extra Chicken</option>
+                    <option label="Pineapples" value="100">Pineapples</option>
+                    <option label="Olives" value="200">Olives</option>
+                    <option label="Extra Chicken" value="300">Extra Chicken</option>
                 </select>
+                
             </div>
+            <div class="column2">
+                <img src="./img/pizza3.jpg" alt="pizza image" id="images">
+                <h4>Crust</h4>
+                <select name="crust" id="crust">
+                    <option label="Crispy" value="200">Crispy</option>
+                    <option label="Stuffed" value="300">Stuffed</option>
+                    <option label="Glutten-free" value="250">Glutten-free</option>
+                </select>
+                
+            </div><br><br>
         </div>
+        <!-- <div class="row3"> 
+          <button id="order" type="button">ORDER</button>
+          <div id="summary">
+            <h2>Here is your order summary</h2>
+            <table>
+              <tr>
+                <th>Size</th>
+                <th>Toppings</th>
+                <th>Crust</th>
+                <th>Total</th>
+              </tr>
+              <tr>
+                  <td id="sizeOrder" ></td>
+                  <td id="toppingsOrder"></td>
+                  <td id="crustOrder"></td>
+                  <td id="total"></td>
+                </tr>
+            </table>
+            <p id="totals">Your total amount will be <span></span> </p>
+          </div>
+          <div id="delivery">
+            <p id="extra">Would you like your order to be delivered for an extra <em>250 shillings</em>?</p>
+            <button id="yes" type="submit">YES</button>
+             <button id="no" type="submit">NO</button>
+          </div>
+          <div id="location">
+            <input type="text" id="location" placeholder="Enter your location">
+            <button id="complete" type="submit">COMPLETE</button>
+          </div>
+
+          <div id="done">
+            <p id="dispatch">Your pizza will arrive in 10 minutes.We have dispatched our rider to <span></span></p> 
+          </div>
+          <div id="add-pizza">
+            <button id="add-btn" type="submit">ADD ANOTHER</button>
+          </div>
+            <button id="checkout" type="reset">CHECKOUT</button>
         
+       
     </div>
- <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
+</html> -->
