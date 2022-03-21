@@ -90,10 +90,10 @@ $("#no").click(function(){
 $("#yes").click(function(){
   $("#location").show();
   
-// })
-// $("#complete").click(function(){
-//   $("#done").show();
-//   $("#checkout").show();
+})
+$("#complete").click(function(){
+  $("#done").show();
+  $("#checkout").show();
   
 // })
 
