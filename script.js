@@ -18,18 +18,18 @@ $(document).ready(function(){
   locatio.hide();
   done.hide();
 
-//   //order
-// $('#order').click (function(){
-//   var pizzaSize = $("#size option:selected").val();
-//   var pizzaToppings = $("#toppings option:selected").val();
-//   var pizzaCrust = $("#crust option:selected").val();
-//   var total = parseInt(pizzaSize) + parseInt(pizzaToppings) + parseInt(pizzaCrust);
-//   var order = 1;
-//   var grandTotal = 0;
+  //order
+$('#order').click (function(){
+  var pizzaSize = $("#size option:selected").val();
+  var pizzaToppings = $("#toppings option:selected").val();
+  var pizzaCrust = $("#crust option:selected").val();
+  var total = parseInt(pizzaSize) + parseInt(pizzaToppings) + parseInt(pizzaCrust);
+  var order = 1;
+  var grandTotal = 0;
 
   
   
-//   $("#order").hide();
+  $("#order").hide();
 
 //   $('span').append(total);
 
