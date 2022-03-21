@@ -87,8 +87,8 @@ $("#no").click(function(){
   alert("please pick up your order in 10 minutes");
 });
 
-// $("#yes").click(function(){
-//   $("#location").show();
+$("#yes").click(function(){
+  $("#location").show();
   
 // })
 // $("#complete").click(function(){
