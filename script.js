@@ -69,19 +69,19 @@ $('#add-pizza').click (function(){
   summary.show();
   totals.show();
            
-// });
+});
 
-// //checkout
-// $("#checkout").click(function() {
-//   $("#add-btn").hide();
-//   delivery.show();
-//   addPizza.hide();
-//   /**
-//    * check button clicked 
-//    * - yes show location
-//    * - no ask the user to pick up physically 
-//    */
-// });
+//checkout
+$("#checkout").click(function() {
+  $("#add-btn").hide();
+  delivery.show();
+  addPizza.hide();
+  /**
+   * check button clicked 
+   * - yes show location
+   * - no ask the user to pick up physically 
+   */
+});
 
 // $("#no").click(function(){
 //   alert("please pick up your order in 10 minutes");
