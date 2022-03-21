@@ -83,9 +83,9 @@ $("#checkout").click(function() {
    */
 });
 
-// $("#no").click(function(){
-//   alert("please pick up your order in 10 minutes");
-// });
+$("#no").click(function(){
+  alert("please pick up your order in 10 minutes");
+});
 
 // $("#yes").click(function(){
 //   $("#location").show();
