@@ -31,19 +31,19 @@ $('#order').click (function(){
   
   $("#order").hide();
 
-//   $('span').append(total);
+  $('span').append(total);
 
 
-//   $("#sizeOrder").html($("#size option:selected").text() + " - " + pizzaSize);
-//   $("#toppingsOrder").html($("#toppings option:selected").text() + " - " + pizzaToppings);
-//   $("#crustOrder").html($("#crust option:selected").text() + " - " + pizzaCrust);
-//   $("#total").html(total);
+  $("#sizeOrder").html($("#size option:selected").text() + " - " + pizzaSize);
+  $("#toppingsOrder").html($("#toppings option:selected").text() + " - " + pizzaToppings);
+  $("#crustOrder").html($("#crust option:selected").text() + " - " + pizzaCrust);
+  $("#total").html(total);
 
 
-//   summary.show();
-//   totals.show();
-//   addPizza.show();
-// });
+  summary.show();
+  totals.show();
+  addPizza.show();
+});
 
 // //add another
 // $('#add-pizza').click (function(){
