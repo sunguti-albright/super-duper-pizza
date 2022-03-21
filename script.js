@@ -95,18 +95,18 @@ $("#complete").click(function(){
   $("#done").show();
   $("#checkout").show();
   
-// })
+})
 
-// $("#summary").show();
-//     $("#totals").show();
-//     $(".#add-pizza").hide();
+$("#summary").show();
+    $("#totals").show();
+    $(".#add-pizza").hide();
 
-//     $("#size").html($("#size option:selected").text() + " - " + pizzaSize);
-//     $("#toppings").html($("#toppings option:selected").text() + " - " + pizzaToppings);
-//     $("#crust").html($("#crust option:selected").text() + " - " + pizzaCrust);
-//     $("#total").html(total);
+    $("#size").html($("#size option:selected").text() + " - " + pizzaSize);
+    $("#toppings").html($("#toppings option:selected").text() + " - " + pizzaToppings);
+    $("#crust").html($("#crust option:selected").text() + " - " + pizzaCrust);
+    $("#total").html(total);
 
-// });
+});
 
     
 
