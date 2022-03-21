@@ -10,7 +10,7 @@ width: auto;
     text-align: center;
    
    
-/*  
+  
 }
 .row1{
     font-family: 'Kaushan Script', cursive;
@@ -22,7 +22,7 @@ width: auto;
     background-position: 20%;
     background-size: cover;
 }
-.row2{
+/* .row2{
     
     background-color: rgb(178, 173, 184);
     height: 450px;
