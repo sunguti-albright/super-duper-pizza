@@ -5,18 +5,18 @@ let summary = $("#summary")
 let totals = $("#totals")
 let addPizza = $('#add-pizza')
 
-// //checkout process
-// let delivery = $("#delivery")
-// let locatio  = $("#location")
-// let done = $("#done")
+//checkout process
+let delivery = $("#delivery")
+let locatio  = $("#location")
+let done = $("#done")
 
-// $(document).ready(function(){
-//   summary.hide();
-//   totals.hide();
-//   addPizza.hide();
-//   delivery.hide();
-//   locatio.hide();
-//   done.hide();
+$(document).ready(function(){
+  summary.hide();
+  totals.hide();
+  addPizza.hide();
+  delivery.hide();
+  locatio.hide();
+  done.hide();
 
 //   //order
 // $('#order').click (function(){
