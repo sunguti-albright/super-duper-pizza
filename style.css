@@ -65,7 +65,7 @@ padding: 15px;
 
  button {
     background-color: #4CAF50; /* Green */
-    /* border: none;
+    border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -76,7 +76,7 @@ padding: 15px;
   }
   
 
-/* table {
+ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -92,9 +92,9 @@ padding: 15px;
   
   tr:nth-child(even) {
     background-color: #dddddd;
-  }
+  }/*
 .row3{
   background-color: #c4c4c4;
-} */ */
+} */
 
 
